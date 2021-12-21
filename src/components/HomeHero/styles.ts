@@ -14,6 +14,12 @@ export const Container = styled.section`
     > img {
         width: 40rem;
         flex: 1;
+
+        --webkit-filter: drop-shadow(3px 3px 0 ${({theme})=> theme.primary})
+                        drop-shadow(-1px -1px 0 ${({theme})=> theme.primary});
+
+        filter: drop-shadow(3px 5px 0 ${({theme})=> theme.primary}) 
+                drop-shadow(-5px -7px 0 ${({theme})=> theme.primary});
     }
 
     > div {
