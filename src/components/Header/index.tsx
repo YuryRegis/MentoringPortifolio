@@ -12,7 +12,6 @@ function Header({ children }: HeaderProps) {
         <styled.Container>
             <ul>
                 <NavLink title='Home' path='/' />
-                <NavLink title='S&C' path='/seg' />
             </ul>
         </styled.Container>
     )
