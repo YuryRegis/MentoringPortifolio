@@ -1,7 +1,9 @@
 import Header from '../components/Header'
 import HomeHero from '../components/HomeHero'
 import TimeLine from '../components/TimeLine'
+import Projects from '../components/Projects'
 import { HomeContainer } from '../styles/HomeStyles'
+
 
 export function Home() {
   return (
@@ -10,6 +12,7 @@ export function Home() {
       <main className='container'>
         <HomeHero />
         <TimeLine />
+        <Projects />
       </main>
     </HomeContainer>
   );

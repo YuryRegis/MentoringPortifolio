@@ -7,7 +7,7 @@ interface Props {
     description?: string | ReactNode;
 }
 
-function SectionTitle({title, description}: Props) {
+export function SectionTitle({title, description}: Props) {
     return (
         <Container>
             <h1>{title}</h1>
