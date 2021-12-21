@@ -4,7 +4,7 @@ import * as styled from './styles'
 
 
 interface HeaderProps {
-    children: ReactNode;
+    children?: ReactNode;
 }
 
 function Header({ children }: HeaderProps) {
