@@ -1,5 +1,4 @@
 import {
-    AiOutlineTwitter,
     AiOutlineGithub,
     AiFillLinkedin
   } from 'react-icons/ai';
@@ -24,9 +23,6 @@ import {
             Voltar ao topo
           </button>
           <section>
-            <AiOutlineTwitter
-              onClick={() => handleRedirect('https://twitter.com')}
-            />
             <AiOutlineGithub
               onClick={() => handleRedirect('https://github.com/yuryRegis')}
             />
