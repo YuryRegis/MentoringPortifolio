@@ -56,7 +56,7 @@ export const TexContainer = styled.section`
     width: 100%;
 
     h1 {
-        font-size: 8rem;
+        font-size: 7rem;
         color: ${({theme}) => theme.primary }
     }
 
