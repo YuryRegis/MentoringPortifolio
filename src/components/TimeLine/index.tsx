@@ -56,7 +56,7 @@ function TimeLine() {
             'Filosofia',
             'TAI II',
             'Desenvolvimento Mobile',
-            'D. Science e Big Data',
+            'D. Science e Big Data'
           ]}
         />
         <SemesterItem
@@ -66,7 +66,7 @@ function TimeLine() {
             'TAI III',
             'Gestão de Startups',
             'Gerencia de Redes',
-            'Eng. de Software I',
+            'Eng. de Software I'
           ]}
         />
         <SemesterItem

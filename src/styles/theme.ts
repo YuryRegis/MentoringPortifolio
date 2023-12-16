@@ -12,4 +12,4 @@ const theme = {
   error: '#d45d5d'
 };
 
-export default theme
+export default theme;
