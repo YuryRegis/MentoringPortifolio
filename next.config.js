@@ -1,5 +1,8 @@
-const withImages = require('next-images');
+const withImages = require('next-optimized-images');
 
 module.exports = withImages({
-  esModule: true
+  esModule: true,
+  optpng: {
+    optimizationLevel: 3,
+  },
 });
