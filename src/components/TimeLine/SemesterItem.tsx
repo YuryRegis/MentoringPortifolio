@@ -1,21 +1,23 @@
-import {ItemContainer} from './styles'
+import { ItemContainer } from './styles';
 
 interface Props {
-    year: string;
-    classes: Array<string>;
+  year: string;
+  classes: Array<string>;
 }
 
-export function SemesterItem({year, classes}: Props) {
-    return (
-        <ItemContainer>
-            <div>
-                <h1>{year}</h1>
-                <ul>
-                    {classes.map( className => <li>{className}</li>)}
-                </ul>
-            </div>
-        </ItemContainer>
-    )
+export function SemesterItem({ year, classes }: Props) {
+  return (
+    <ItemContainer key={year}>
+      <div>
+        <h1>{year}</h1>
+        <ul>
+          {classes.map(className => (
+            <li key={className}>{className}</li>
+          ))}
+        </ul>
+      </div>
+    </ItemContainer>
+  );
 }
 
-export default SemesterItem
+export default SemesterItem;

@@ -1,7 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
 import { AiOutlineRightCircle } from 'react-icons/ai';
 import { ProjectContainer } from './styles';
-
 
 interface Props {
   title: string;
